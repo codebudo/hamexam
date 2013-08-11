@@ -7,11 +7,14 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
-      #exam {
+      #exam, #score {
         margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
         width: 400px;
+      }
+      #score {
+        text-align: right;
       }
       .answers li {
         padding: 2px;
@@ -32,8 +35,11 @@
       var question_pool = {};
       var asked = [];
       var state = {};
-      state.seed = (new Date()).getTime();
+      state.seed    = (new Date()).getTime();
       state.answers = {};
+      state.score = {};
+      state.score.correct = 0;
+      state.score.total   = 35;
 
       Math.seedrandom( state.seed );
 
@@ -42,21 +48,30 @@
         var question_num = $(this).data('questionNum');
         var user_answer = $(this)[0].innerText.substr(0,1).toLowerCase();
         var correct_answer = question_pool[question_num].correct.toLowerCase();
+        var answered = false;
+
+        if( state.answers[question_num] == undefined ){
+          state.answers[question_num] = user_answer;
+          answered = true;
+        }
+
         if( user_answer == correct_answer ){
           $(this).addClass("correct");
+          if( answered == false )
+            state.score.correct++;
         } else {
           $(this).addClass("incorrect");
         }
-        if( state.answers[question_num] == undefined )
-          state.answers[question_num] = user_answer;
-        window.history.pushState({},"Ham Technician Exam", "?q="+JSON.stringify(state) );
+
+        window.history.pushState({},"Ham Technician Exam","?q="+JSON.stringify(state));
+        $('#score').html( $('#score_tmpl').jqote(state.score) );
       }
 
       function makeExam(pool){
         for( var i=0; i<35; i++){
-          var qnum = Math.floor((Math.random()*1000)%pool.length)+1;
+          var qnum = Math.floor((Math.random()*1000)%pool.length);
           if( asked.indexOf(qnum) < 0 ){ 
-            pool[qnum].num--; // TODO match index with num
+            pool[qnum].num--; // TODO match index (qnum) with num
             $('#exam').append($('#question_tmpl').jqote(pool[qnum]));
             asked.push(qnum);
           } else {
@@ -67,9 +82,7 @@
         $('.answers li').on('click', checkAnswer);
       }
 
-      var callback = function(data){
-        question_pool = data;
-
+      function recallState(){
         // set the state from the URL
         if( document.location.search.length > 3 ){
           state = JSON.parse(decodeURIComponent(document.location.search).substr(3));
@@ -82,7 +95,16 @@
               question_pool[i].mark = 'incorrect';
             }
           }
+          state.score.correct = state.score.correct || 0;
+          state.score.total = state.score.total || 35;
+          $('#score').html(""+ $('#score_tmpl').jqote(state.score) );
         }
+      }
+
+      var callback = function(data){
+        question_pool = data;
+
+        recallState();
 
         makeExam( question_pool );
       };
@@ -102,6 +124,11 @@
         </ul>
       </div>
     </script>
+    <script type="text/html" id="score_tmpl">
+      <%= this.correct %> of <%= this.total %> = 
+      <span class="<%= '' %>"><%= Math.floor((this.correct / this.total)*100)+' ' %> %</span>  
+    </script>
+
 
     <!-- Navbar
       ================================================== -->
@@ -120,6 +147,8 @@
     <!-- Exam
       ================================================== -->
     <div id="exam">
+    </div>
+    <div id="score">
     </div>
 
     <script type="text/javascript" src="data/technician.json"></script>
