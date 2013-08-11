@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <script type="text/javascript" src="jquery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery.jqote2.min.js"></script>
+    <script type="text/javascript" src="http://davidbau.com/encode/seedrandom-min.js">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      #exam {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+      }
+      .answers li {
+        padding: 2px;
+      }
+      .answers li:hover {
+        //background-color: silver;
+        border: 1px solid silver;
+      }
+      .correct {
+        background-color: #5F5;
+      }
+      .incorrect {
+        background-color: red;
+      }
+
+    </style>
+    <script type="text/javascript">
+      var question_pool = {};
+      var asked = [];
+      var state = {};
+      state.seed = (new Date()).getTime();
+      state.answers = {};
+
+      Math.seedrandom( state.seed );
+
+      function checkAnswer(q){
+        //console.log( $(this) );
+        var user_answer = $(this)[0].innerText.substr(0,1).toLowerCase();
+        var correct_answer = question_pool[$(this).data('questionNum')].correct.toLowerCase();
+        if( user_answer == correct_answer ){
+          $(this).addClass("correct");
+        } else {
+          $(this).addClass("incorrect");
+        }
+        window.history.pushState({},"Ham Technician Exam", "?q="+JSON.stringify(state) );
+      }
+
+      function makeExam(pool){
+        for( var i=0; i<35; i++){
+          var qnum = Math.floor((Math.random()*1000)%pool.length);
+          if( asked.indexOf(qnum) < 0 ){ 
+            $('#exam').append($('#question_tmpl').jqote(pool[qnum]));
+            asked.push(qnum);
+          } else {
+            i--;
+          }
+        }
+
+        $('.answers li').on('click', checkAnswer);
+      }
+
+      var callback = function(data){
+        question_pool = data;
+        makeExam( question_pool );
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Templates
+    ================================================== -->
+    <script type="text/html" id="question_tmpl">
+      <div class="question">
+        <div class="sample_number"><%= this.sample %></div>
+        <div class="query"><%= this.question %></div>
+        <ul class="answers">
+        <% for( i in this.answers ){ %>
+          <li data-question-num=<%= this.num %>><%= this.answers[i] %></li>
+        <% } %>
+        </ul>
+      </div>
+    </script>
+
+    <!-- Navbar
+      ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <a class="brand" href="#">HAM Radio Practice Exam</a>
+        <ul class="nav pull-right">
+          <li>
+            <div class="btn-group">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Exam
+      ================================================== -->
+    <div id="exam">
+    </div>
+
+    <script type="text/javascript" src="technician.json"></script>
+  </body>
+</html>
+
