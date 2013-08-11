@@ -39,20 +39,24 @@
 
       function checkAnswer(q){
         //console.log( $(this) );
+        var question_num = $(this).data('questionNum');
         var user_answer = $(this)[0].innerText.substr(0,1).toLowerCase();
-        var correct_answer = question_pool[$(this).data('questionNum')].correct.toLowerCase();
+        var correct_answer = question_pool[question_num].correct.toLowerCase();
         if( user_answer == correct_answer ){
           $(this).addClass("correct");
         } else {
           $(this).addClass("incorrect");
         }
+        if( state.answers[question_num] == undefined )
+          state.answers[question_num] = user_answer;
         window.history.pushState({},"Ham Technician Exam", "?q="+JSON.stringify(state) );
       }
 
       function makeExam(pool){
         for( var i=0; i<35; i++){
-          var qnum = Math.floor((Math.random()*1000)%pool.length);
+          var qnum = Math.floor((Math.random()*1000)%pool.length)+1;
           if( asked.indexOf(qnum) < 0 ){ 
+            pool[qnum].num--; // TODO match index with num
             $('#exam').append($('#question_tmpl').jqote(pool[qnum]));
             asked.push(qnum);
           } else {
@@ -65,6 +69,21 @@
 
       var callback = function(data){
         question_pool = data;
+
+        // set the state from the URL
+        if( document.location.search.length > 3 ){
+          state = JSON.parse(decodeURIComponent(document.location.search).substr(3));
+          Math.seedrandom( state.seed );
+          for( i in state.answers ){
+            question_pool[i].answer = state.answers[i];
+            if( question_pool[i].answer == question_pool[i].correct.toLowerCase() ){
+              question_pool[i].mark = 'correct';
+            } else {
+              question_pool[i].mark = 'incorrect';
+            }
+          }
+        }
+
         makeExam( question_pool );
       };
     </script>
@@ -78,7 +97,7 @@
         <div class="query"><%= this.question %></div>
         <ul class="answers">
         <% for( i in this.answers ){ %>
-          <li data-question-num=<%= this.num %>><%= this.answers[i] %></li>
+          <li data-question-num=<%= this.num %> class="<%= this.answers[i].substr(0,1).toLowerCase()==this.answer?this.mark:"" %>"><%= this.answers[i] %></li>
         <% } %>
         </ul>
       </div>
@@ -103,7 +122,7 @@
     <div id="exam">
     </div>
 
-    <script type="text/javascript" src="technician.json"></script>
+    <script type="text/javascript" src="data/technician.json"></script>
   </body>
 </html>
 
