@@ -21,6 +21,7 @@
       }
       .answers li:hover {
         //background-color: silver;
+        padding: 1px;
         border: 1px solid silver;
       }
       .correct {
@@ -37,9 +38,9 @@
       var state = {};
       state.seed    = (new Date()).getTime();
       state.answers = {};
-      state.score = {};
-      state.score.correct = 0;
-      state.score.total   = 35;
+      score = {};
+      score.correct = 0;
+      score.total   = 35;
 
       Math.seedrandom( state.seed );
 
@@ -48,23 +49,38 @@
         var question_num = $(this).data('questionNum');
         var user_answer = $(this)[0].innerText.substr(0,1).toLowerCase();
         var correct_answer = question_pool[question_num].correct.toLowerCase();
-        var answered = false;
 
         if( state.answers[question_num] == undefined ){
           state.answers[question_num] = user_answer;
-          answered = true;
         }
+
+        console.log( question_pool[question_num] );
 
         if( user_answer == correct_answer ){
           $(this).addClass("correct");
-          if( answered == false )
-            state.score.correct++;
+
+          // update score if the question hasn't been answered before
+          if( question_pool[question_num].mark === undefined )
+            markCorrect( question_pool[question_num] );
+
         } else {
+          markIncorrect( question_pool[question_num] );
           $(this).addClass("incorrect");
         }
 
         window.history.pushState({},"Ham Technician Exam","?q="+JSON.stringify(state));
-        $('#score').html( $('#score_tmpl').jqote(state.score) );
+        $('#score').html( $('#score_tmpl').jqote(score) );
+      }
+
+      /* q = a reference to the element in the question_pool array
+       */
+      function markCorrect(q){
+        q.mark = 'correct';
+        score.correct++;
+      }
+
+      function markIncorrect(q){
+        q.mark = 'incorrect';
       }
 
       function makeExam(pool){
@@ -90,14 +106,16 @@
           for( i in state.answers ){
             question_pool[i].answer = state.answers[i];
             if( question_pool[i].answer == question_pool[i].correct.toLowerCase() ){
-              question_pool[i].mark = 'correct';
+              markCorrect(question_pool[i]);
             } else {
-              question_pool[i].mark = 'incorrect';
+              markIncorrect(question_pool[i]);
             }
           }
-          state.score.correct = state.score.correct || 0;
-          state.score.total = state.score.total || 35;
-          $('#score').html(""+ $('#score_tmpl').jqote(state.score) );
+           
+          // make sure score is valid
+          //score.correct = score.correct || 0;
+          //score.total = score.total || 35;
+          $('#score').html(""+ $('#score_tmpl').jqote(score) );
         }
       }
 
