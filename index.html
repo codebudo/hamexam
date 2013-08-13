@@ -3,12 +3,12 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <script type="text/javascript" src="jquery/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="js/jquery.jqote2.min.js"></script>
-    <script type="text/javascript" src="http://davidbau.com/encode/seedrandom-min.js">
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://davidbau.com/encode/seedrandom-min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
       #exam, #score {
-        margin-top: 50px;
+        margin-top: 55px;
         margin-left: auto;
         margin-right: auto;
         width: 400px;
@@ -36,8 +36,6 @@
       var question_pool = {};
       var asked = [];
       var state = {};
-      state.seed    = (new Date()).getTime();
-      state.answers = {};
       score = {};
       score.correct = 0;
       score.total   = 35;
@@ -50,11 +48,11 @@
         var user_answer = $(this)[0].innerText.substr(0,1).toLowerCase();
         var correct_answer = question_pool[question_num].correct.toLowerCase();
 
+        if( state.answers === undefined )
+          state.answers = {};
         if( state.answers[question_num] == undefined ){
           state.answers[question_num] = user_answer;
         }
-
-        console.log( question_pool[question_num] );
 
         if( user_answer == correct_answer ){
           $(this).addClass("correct");
@@ -84,6 +82,7 @@
       }
 
       function makeExam(pool){
+        $('#exam').empty();
         for( var i=0; i<35; i++){
           var qnum = Math.floor((Math.random()*1000)%pool.length);
           if( asked.indexOf(qnum) < 0 ){ 
@@ -99,30 +98,38 @@
       }
 
       function recallState(){
-        // set the state from the URL
+        // TODO use 'split' to parse the line; remove this bad hack
+        // get the state from the URL
         if( document.location.search.length > 3 ){
           state = JSON.parse(decodeURIComponent(document.location.search).substr(3));
+          if( state.seed === undefined )
+            state.seed = (new Date()).getTime();
+
           Math.seedrandom( state.seed );
-          for( i in state.answers ){
-            question_pool[i].answer = state.answers[i];
-            if( question_pool[i].answer == question_pool[i].correct.toLowerCase() ){
-              markCorrect(question_pool[i]);
-            } else {
-              markIncorrect(question_pool[i]);
-            }
-          }
-           
-          // make sure score is valid
-          //score.correct = score.correct || 0;
-          //score.total = score.total || 35;
-          $('#score').html(""+ $('#score_tmpl').jqote(score) );
+
+          return state;
         }
+      }
+
+      function markAnsweredQuestions( pool, answers ){
+        for( i in answers ){
+          if( i > pool.length ) // ignore bad data
+            break;
+          pool[i].answer = answers[i];
+          if( pool[i].answer == pool[i].correct.toLowerCase() ){
+            markCorrect(pool[i]);
+          } else {
+            markIncorrect(pool[i]);
+          }
+        }
+          
+        $('#score').html(""+ $('#score_tmpl').jqote(score) );
       }
 
       var callback = function(data){
         question_pool = data;
 
-        recallState();
+        markAnsweredQuestions( question_pool, state.answers );
 
         makeExam( question_pool );
       };
@@ -152,13 +159,19 @@
       ================================================== -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <a class="brand" href="#">HAM Radio Practice Exam</a>
-        <ul class="nav pull-right">
-          <li>
-            <div class="btn-group">
-            </div>
-          </li>
-        </ul>
+        <a class="brand" href="#">HAM Radio Practice Exam</a></li>
+        <div class="dropdown pull-right">
+          <button class="btn dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="">
+            Choose Exam
+            <b class="caret"></b>
+          </button>
+          <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+            <!-- TODO generate these and urlencode the states -->
+            <li role="presentation"><a href="?q={%22examtype%22:%22technician%22}">Technician</a></li>
+            <li role="presentation"><a href="?q={%22examtype%22:%22general%22}">General</a></li>
+            <li role="presentation"><a href="?q={%22examtype%22:%22extra%22}">Extra</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -169,7 +182,12 @@
     <div id="score">
     </div>
 
-    <script type="text/javascript" src="data/technician.json"></script>
+    <script>
+      recallState();
+      if( state.examtype === undefined )
+        state.examtype = 'technician';
+      $.ajax({url:'data/'+state.examtype+'.json', success: function(e){callback(e);}});
+    </script>
   </body>
 </html>
 
