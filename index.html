@@ -102,8 +102,10 @@
         // get the state from the URL
         if( document.location.search.length > 3 ){
           state = JSON.parse(decodeURIComponent(document.location.search).substr(3));
-          if( state.seed === undefined )
+          if( state.seed === undefined ){
             state.seed = (new Date()).getTime();
+            window.history.pushState({},"Ham Technician Exam","?q="+JSON.stringify(state));
+          }
 
           Math.seedrandom( state.seed );
 
@@ -142,6 +144,9 @@
       <div class="question">
         <div class="sample_number"><%= this.sample %></div>
         <div class="query"><%= this.question %></div>
+        <% if( this.figure ){ %>
+          <div class="figure"><img src="figures/<%= this.figure %>" /></div>
+        <% } %>
         <ul class="answers">
         <% for( i in this.answers ){ %>
           <li data-question-num=<%= this.num %> class="<%= this.answers[i].substr(0,1).toLowerCase()==this.answer?this.mark:"" %>"><%= this.answers[i] %></li>
