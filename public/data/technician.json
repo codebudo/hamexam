@@ -1144,7 +1144,7 @@
     }
   },
   {
-    "num": 90,
+    "num": 91,
     "sample": "T2C01",
     "cfr": "97.103(a)",
     "correct": "D",
@@ -1157,7 +1157,7 @@
     }
   },
   {
-    "num": 91,
+    "num": 92,
     "sample": "T2C02",
     "correct": "C",
     "question": "Which of the following are typical duties of a Net Control Station?",
@@ -1169,7 +1169,7 @@
     }
   },
   {
-    "num": 92,
+    "num": 93,
     "sample": "T2C03",
     "correct": "C",
     "question": "What technique is used to ensure that voice messages containing unusual words are received correctly?",
@@ -1181,7 +1181,7 @@
     }
   },
   {
-    "num": 93,
+    "num": 94,
     "sample": "T2C04",
     "correct": "D",
     "question": "What is RACES?",
@@ -1193,7 +1193,7 @@
     }
   },
   {
-    "num": 94,
+    "num": 95,
     "sample": "T2C05",
     "correct": "A",
     "question": "What does the term \"traffic\" refer to in net operation?",
@@ -1205,7 +1205,7 @@
     }
   },
   {
-    "num": 95,
+    "num": 96,
     "sample": "T2C06",
     "correct": "A",
     "question": "What is the Amateur Radio Emergency Service (ARES)?",
@@ -1217,7 +1217,7 @@
     }
   },
   {
-    "num": 96,
+    "num": 97,
     "sample": "T2C07",
     "correct": "C",
     "question": "Which of the following is standard practice when you participate in a net?",
@@ -1229,7 +1229,7 @@
     }
   },
   {
-    "num": 97,
+    "num": 98,
     "sample": "T2C08",
     "correct": "A",
     "question": "Which of the following is a characteristic of good traffic handling?",
@@ -1241,19 +1241,19 @@
     }
   },
   {
-    "num": 98,
+    "num": 99,
     "sample": "T2C09",
     "correct": "D",
     "question": "Are amateur station control operators ever permitted to operate outside the frequency privileges of their license class?",
     "answers": {
       "a": "A. No",
       "b": "B. Yes, but only when part of a FEMA emergency plan",
-      "c": ". Yes, but only when part of a RACES emergency plan",
+      "c": "C. Yes, but only when part of a RACES emergency plan",
       "d": "D. Yes, but only in situations involving the immediate safety of human life or protection of property"
     }
   },
   {
-    "num": 99,
+    "num": 100,
     "sample": "T2C10",
     "correct": "D",
     "question": "What information is contained in the preamble of a formal traffic message?",
@@ -1265,7 +1265,7 @@
     }
   },
   {
-    "num": 100,
+    "num": 101,
     "sample": "T2C11",
     "correct": "A",
     "question": "What is meant by “check” in a radiogram header?",
@@ -1277,7 +1277,7 @@
     }
   },
   {
-    "num": 101,
+    "num": 102,
     "sample": "T3A01",
     "correct": "C",
     "question": "Why do VHF signal strengths sometimes vary greatly when the antenna is moved only a few feet?",
@@ -1289,7 +1289,7 @@
     }
   },
   {
-    "num": 102,
+    "num": 103,
     "sample": "T3A02",
     "correct": "B",
     "question": "What is the effect of vegetation on UHF and microwave signals?",
@@ -1301,7 +1301,7 @@
     }
   },
   {
-    "num": 103,
+    "num": 104,
     "sample": "T3A03",
     "correct": "C",
     "question": "What antenna polarization is normally used for long-distance CW and SSB contacts on the VHF and UHF bands?",
@@ -1313,7 +1313,7 @@
     }
   },
   {
-    "num": 104,
+    "num": 105,
     "sample": "T3A04",
     "correct": "B",
     "question": "What happens when antennas at opposite ends of a VHF or UHF line of sight radio link are not using the same polarization?",
@@ -1325,7 +1325,7 @@
     }
   },
   {
-    "num": 105,
+    "num": 106,
     "sample": "T3A05",
     "correct": "B",
     "question": "When using a directional antenna, how might your station be able to communicate with a distant repeater if buildings or obstructions are blocking the direct line of sight path?",
@@ -1337,7 +1337,7 @@
     }
   },
   {
-    "num": 106,
+    "num": 107,
     "sample": "T3A06",
     "correct": "B",
     "question": "What is the meaning of the term \"picket fencing\"?",
@@ -1349,7 +1349,7 @@
     }
   },
   {
-    "num": 107,
+    "num": 108,
     "sample": "T3A07",
     "correct": "C",
     "question": "What weather condition might decrease range at microwave frequencies?",
@@ -1361,7 +1361,7 @@
     }
   },
   {
-    "num": 108,
+    "num": 109,
     "sample": "TA08",
     "correct": "D",
     "question": "What is a likely cause of irregular fading of signals propagated by the ionosphere?",
@@ -1373,7 +1373,7 @@
     }
   },
   {
-    "num": 109,
+    "num": 110,
     "sample": "T3A09",
     "correct": "B",
     "question": "Which of the following results from the fact that signals propagated by the ionosphere are elliptically polarized?",
@@ -1385,7 +1385,7 @@
     }
   },
   {
-    "num": 110,
+    "num": 111,
     "sample": "T3A10",
     "correct": "D",
     "question": "What effect does multi-path propagation have on data transmissions?",
@@ -1397,7 +1397,7 @@
     }
   },
   {
-    "num": 111,
+    "num": 112,
     "sample": "T3A11",
     "correct": "C",
     "question": "Which region of the atmosphere can refract or bend HF and VHF radio waves?",
@@ -1409,7 +1409,7 @@
     }
   },
   {
-    "num": 112,
+    "num": 113,
     "sample": "T3A12",
     "correct": "B",
     "question": "What is the effect of fog and rain on signals in the 10 meter and 6 meter bands?",
@@ -1421,7 +1421,7 @@
     }
   },
   {
-    "num": 113,
+    "num": 114,
     "sample": "T3B01",
     "correct": "D",
     "question": "What is the relationship between the electric and magnetic fields of an electromagnetic wave?",
@@ -1433,7 +1433,7 @@
     }
   },
   {
-    "num": 114,
+    "num": 115,
     "sample": "T3B02",
     "correct": "A",
     "question": "What property of a radio wave defines its polarization?",
@@ -1445,7 +1445,7 @@
     }
   },
   {
-    "num": 115,
+    "num": 116,
     "sample": "T3B03",
     "correct": "C",
     "question": "What are the two components of a radio wave?",
@@ -1457,7 +1457,7 @@
     }
   },
   {
-    "num": 116,
+    "num": 117,
     "sample": "T3B04",
     "correct": "A",
     "question": "What is the velocity of a radio wave traveling through free space?",
@@ -1469,7 +1469,7 @@
     }
   },
   {
-    "num": 117,
+    "num": 118,
     "sample": "T3B05",
     "correct": "B",
     "question": "What is the relationship between wavelength and frequency?",
@@ -1481,7 +1481,7 @@
     }
   },
   {
-    "num": 118,
+    "num": 119,
     "sample": "T3B06",
     "correct": "D",
     "question": "What is the formula for converting frequency to approximate wavelength in meters?",
@@ -1493,7 +1493,7 @@
     }
   },
   {
-    "num": 119,
+    "num": 120,
     "sample": "T3B07",
     "correct": "A",
     "question": "In addition to frequency, which of the following is used to identify amateur radio bands?",
@@ -1505,7 +1505,7 @@
     }
   },
   {
-    "num": 120,
+    "num": 121,
     "sample": "T3B08",
     "correct": "B",
     "question": "What frequency range is referred to as VHF?",
@@ -1517,7 +1517,7 @@
     }
   },
   {
-    "num": 121,
+    "num": 122,
     "sample": "T3B09",
     "correct": "D",
     "question": "What frequency range is referred to as UHF?",
@@ -1529,7 +1529,7 @@
     }
   },
   {
-    "num": 122,
+    "num": 123,
     "sample": "T3B10",
     "correct": "C",
     "question": "What frequency range is referred to as HF?",
@@ -1541,7 +1541,7 @@
     }
   },
   {
-    "num": 123,
+    "num": 124,
     "sample": "T3B11",
     "correct": "B",
     "question": "What is the approximate velocity of a radio wave in free space?",
@@ -1553,7 +1553,7 @@
     }
   },
   {
-    "num": 124,
+    "num": 125,
     "sample": "T3C01",
     "correct": "C",
     "question": "Why are simplex UHF signals rarely heard beyond their radio horizon?",
@@ -1565,7 +1565,7 @@
     }
   },
   {
-    "num": 125,
+    "num": 126,
     "sample": "T3C02",
     "correct": "C",
     "question": "What is a characteristic of HF communication compared with communications on VHF and higher frequencies?",
@@ -1577,7 +1577,7 @@
     }
   },
   {
-    "num": 126,
+    "num": 127,
     "sample": "T3C03",
     "correct": "B",
     "question": "What is a characteristic of VHF signals received via auroral backscatter?",
@@ -1589,7 +1589,7 @@
     }
   },
   {
-    "num": 127,
+    "num": 128,
     "sample": "T3C04",
     "correct": "B",
     "question": "Which of the following types of propagation is most commonly associated with occasional strong signals on the 10, 6, and 2 meter bands from beyond the radio horizon?",
@@ -1601,7 +1601,7 @@
     }
   },
   {
-    "num": 128,
+    "num": 129,
     "sample": "T3C05",
     "correct": "A",
     "question": "Which of the following effects may allow radio signals to travel beyond obstructions between the transmitting and receiving stations?",
@@ -1613,7 +1613,7 @@
     }
   },
   {
-    "num": 129,
+    "num": 130,
     "sample": "T3C06",
     "correct": "A",
     "question": "What type of propagation is responsible for allowing over-the-horizon VHF and UHF communications to ranges of approximately 300 miles on a regular basis?",
@@ -1625,7 +1625,7 @@
     }
   },
   {
-    "num": 130,
+    "num": 131,
     "sample": "T3C07",
     "correct": "B",
     "question": "What band is best suited for communicating via meteor scatter?",
@@ -1637,7 +1637,7 @@
     }
   },
   {
-    "num": 131,
+    "num": 132,
     "sample": "T3C08",
     "correct": "D",
     "question": "What causes tropospheric ducting?",
@@ -1649,7 +1649,7 @@
     }
   },
   {
-    "num": 132,
+    "num": 133,
     "sample": "T3C09",
     "correct": "A",
     "question": "What is generally the best time for long-distance 10 meter band propagation via the F region?",
@@ -1661,7 +1661,7 @@
     }
   },
   {
-    "num": 133,
+    "num": 134,
     "sample": "T3C10",
     "correct": "A",
     "question": "Which of the following bands may provide long-distance communications via the ionosphere’s F region during the peak of the sunspot cycle?",
@@ -1673,7 +1673,7 @@
     }
   },
   {
-    "num": 134,
+    "num": 135,
     "sample": "T3C11",
     "correct": "C",
     "question": "Why is the radio horizon for VHF and UHF signals more distant than the visual horizon?",
@@ -1685,7 +1685,7 @@
     }
   },
   {
-    "num": 135,
+    "num": 136,
     "sample": "T4A01",
     "correct": "D",
     "question": "Which of the following is an appropriate power supply rating for a typical 50 watt output mobile FM transceiver?",
@@ -1697,7 +1697,7 @@
     }
   },
   {
-    "num": 136,
+    "num": 137,
     "sample": "T4A02",
     "correct": "A",
     "question": "Which of the following should be considered when selecting an accessory SWR meter?",
@@ -1709,7 +1709,7 @@
     }
   },
   {
-    "num": 137,
+    "num": 138,
     "sample": "T4A03",
     "correct": "A",
     "question": "Why are short, heavy-gauge wires used for a transceiver’s DC power connection?",
@@ -1721,7 +1721,7 @@
     }
   },
   {
-    "num": 138,
+    "num": 139,
     "sample": "T4A04",
     "correct": "B",
     "question": "How are the transceiver audio input and output connected in a station configured to operate using FT8?",
@@ -1733,7 +1733,7 @@
     }
   },
   {
-    "num": 139,
+    "num": 140,
     "sample": "T4A05",
     "correct": "A",
     "question": "Where should an RF power meter be installed?",
@@ -1745,7 +1745,7 @@
     }
   },
   {
-    "num": 140,
+    "num": 141,
     "sample": "T4A06",
     "correct": "C",
     "question": "What signals are used in a computer-radio interface for digital mode operation?",
@@ -1757,7 +1757,7 @@
     }
   },
   {
-    "num": 141,
+    "num": 142,
     "sample": "T4A07",
     "correct": "C",
     "question": "Which of the following connections is made between a computer and a transceiver to use computer software when operating digital modes?",
@@ -1769,7 +1769,7 @@
     }
   },
   {
-    "num": 142,
+    "num": 143,
     "sample": "T4A08",
     "correct": "D",
     "question": "Which of the following conductors is preferred for bonding at RF?",
@@ -1781,7 +1781,7 @@
     }
   },
   {
-    "num": 143,
+    "num": 144,
     "sample": "T4A09",
     "correct": "B",
     "question": "How can you determine the length of time that equipment can be powered from a battery?",
@@ -1793,7 +1793,7 @@
     }
   },
   {
-    "num": 144,
+    "num": 145,
     "sample": "T4A10",
     "correct": "A",
     "question": "What function is performed with a transceiver and a digital mode hot spot?",
@@ -1805,7 +1805,7 @@
     }
   },
   {
-    "num": 145,
+    "num": 146,
     "sample": "T4A11",
     "correct": "A",
     "question": "Where should the negative power return of a mobile transceiver be connected in a vehicle?",
@@ -1817,7 +1817,7 @@
     }
   },
   {
-    "num": 146,
+    "num": 147,
     "sample": "T4A12",
     "correct": "C",
     "question": "What is an electronic keyer?",
@@ -1829,7 +1829,7 @@
     }
   },
   {
-    "num": 147,
+    "num": 148,
     "sample": "T4B01",
     "correct": "B",
     "question": "What is the effect of excessive microphone gain on SSB transmissions?",
@@ -1841,7 +1841,7 @@
     }
   },
   {
-    "num": 148,
+    "num": 149,
     "sample": "T4B02",
     "correct": "A",
     "question": "Which of the following can be used to enter a transceiver’s operating frequency?",
@@ -1853,7 +1853,7 @@
     }
   },
   {
-    "num": 149,
+    "num": 150,
     "sample": "T4B03",
     "correct": "A",
     "question": "How is squelch adjusted so that a weak FM signal can be heard?",
@@ -1865,7 +1865,7 @@
     }
   },
   {
-    "num": 150,
+    "num": 151,
     "sample": "T4B04",
     "correct": "B",
     "question": "What is a way to enable quick access to a favorite frequency or channel on your transceiver?",
@@ -1877,7 +1877,7 @@
     }
   },
   {
-    "num": 151,
+    "num": 152,
     "sample": "T4B05",
     "correct": "C",
     "question": "What does the scanning function of an FM transceiver do?",
@@ -1889,7 +1889,7 @@
     }
   },
   {
-    "num": 152,
+    "num": 153,
     "sample": "T4B06",
     "correct": "D",
     "question": "Which of the following controls could be used if the voice pitch of a single-sideband signal returning to your CQ call seems too high or low?",
@@ -1901,7 +1901,7 @@
     }
   },
   {
-    "num": 153,
+    "num": 154,
     "sample": "T4B07",
     "correct": "B",
     "question": "What does a DMR \"code plug\" contain?",
@@ -1913,7 +1913,7 @@
     }
   },
   {
-    "num": 154,
+    "num": 155,
     "sample": "T4B08",
     "correct": "B",
     "question": "What is the advantage of having multiple receive bandwidth choices on a multimode transceiver?",
@@ -1925,7 +1925,7 @@
     }
   },
   {
-    "num": 155,
+    "num": 156,
     "sample": "T4B09",
     "correct": "C",
     "question": "How is a specific group of stations selected on a digital voice transceiver?",
@@ -1937,7 +1937,7 @@
     }
   },
   {
-    "num": 156,
+    "num": 157,
     "sample": "T4B10",
     "correct": "C",
     "question": "Which of the following receiver filter bandwidths provides the best signal-to-noise ratio for SSB reception?",
@@ -1949,7 +1949,7 @@
     }
   },
   {
-    "num": 157,
+    "num": 158,
     "sample": "T4B11",
     "correct": "A",
     "question": "Which of the following must be programmed into a D-STAR digital transceiver before transmitting?",
@@ -1961,7 +1961,7 @@
     }
   },
   {
-    "num": 158,
+    "num": 159,
     "sample": "T4B12",
     "correct": "D",
     "question": "What is the result of tuning an FM receiver above or below a signal’s frequency?",
@@ -1973,7 +1973,7 @@
     }
   },
   {
-    "num": 159,
+    "num": 160,
     "sample": "T5A01",
     "correct": "D",
     "question": "Electrical current is measured in which of the following units?",
@@ -1985,7 +1985,7 @@
     }
   },
   {
-    "num": 160,
+    "num": 161,
     "sample": "T5A02",
     "correct": "B",
     "question": "Electrical power is measured in which of the following units?",
@@ -1997,7 +1997,7 @@
     }
   },
   {
-    "num": 161,
+    "num": 162,
     "sample": "T5A03",
     "correct": "D",
     "question": "What is the name for the flow of electrons in an electric circuit?",
@@ -2009,7 +2009,7 @@
     }
   },
   {
-    "num": 162,
+    "num": 163,
     "sample": "T5A04",
     "correct": "C",
     "question": "What are the units of electrical resistance?",
@@ -2021,7 +2021,7 @@
     }
   },
   {
-    "num": 163,
+    "num": 164,
     "sample": "T5A05",
     "correct": "A",
     "question": "What is the electrical term for the force that causes electron flow?",
@@ -2033,7 +2033,7 @@
     }
   },
   {
-    "num": 164,
+    "num": 165,
     "sample": "T5A06",
     "correct": "A",
     "question": "What is the unit of frequency?",
@@ -2045,7 +2045,7 @@
     }
   },
   {
-    "num": 165,
+    "num": 166,
     "sample": "T5A07",
     "correct": "B",
     "question": "Why are metals generally good conductors of electricity?",
@@ -2057,7 +2057,7 @@
     }
   },
   {
-    "num": 166,
+    "num": 167,
     "sample": "T5A08",
     "correct": "B",
     "question": "Which of the following is a good electrical insulator?",
@@ -2069,7 +2069,7 @@
     }
   },
   {
-    "num": 167,
+    "num": 168,
     "sample": "T5A09",
     "correct": "C",
     "question": "Which of the following describes alternating current?",
@@ -2081,7 +2081,7 @@
     }
   },
   {
-    "num": 168,
+    "num": 169,
     "sample": "T5A10",
     "correct": "C",
     "question": "Which term describes the rate at which electrical energy is used?",
@@ -2093,7 +2093,7 @@
     }
   },
   {
-    "num": 169,
+    "num": 170,
     "sample": "T5A11",
     "correct": "D",
     "question": "What type of current flow is opposed by resistance?",
@@ -2105,7 +2105,7 @@
     }
   },
   {
-    "num": 170,
+    "num": 171,
     "sample": "T5A12",
     "correct": "D",
     "question": "What describes the number of times per second that an alternating current makes a complete cycle?",
@@ -2117,7 +2117,7 @@
     }
   },
   {
-    "num": 171,
+    "num": 172,
     "sample": "T5B01",
     "correct": "C",
     "question": "How many milliamperes is 1.5 amperes?",
@@ -2129,7 +2129,7 @@
     }
   },
   {
-    "num": 172,
+    "num": 173,
     "sample": "T5B02",
     "correct": "A",
     "question": "Which is equal to 1,500,000 hertz?",
@@ -2141,7 +2141,7 @@
     }
   },
   {
-    "num": 173,
+    "num": 174,
     "sample": "T5B03",
     "correct": "C",
     "question": "Which is equal to one kilovolt?",
@@ -2153,7 +2153,7 @@
     }
   },
   {
-    "num": 174,
+    "num": 175,
     "sample": "T5B04",
     "correct": "A",
     "question": "Which is equal to one microvolt?",
@@ -2165,7 +2165,7 @@
     }
   },
   {
-    "num": 175,
+    "num": 176,
     "sample": "T5B05",
     "correct": "B",
     "question": "Which is equal to 500 milliwatts?",
@@ -2177,7 +2177,7 @@
     }
   },
   {
-    "num": 176,
+    "num": 177,
     "sample": "T5B06",
     "correct": "D",
     "question": "Which is equal to 3000 milliamperes?",
@@ -2189,7 +2189,7 @@
     }
   },
   {
-    "num": 177,
+    "num": 178,
     "sample": "T5B07",
     "correct": "C",
     "question": "Which is equal to 3.525 MHz?",
@@ -2201,7 +2201,7 @@
     }
   },
   {
-    "num": 178,
+    "num": 179,
     "sample": "T5B08",
     "correct": "B",
     "question": "Which is equal to 1,000,000 picofarads?",
@@ -2213,7 +2213,7 @@
     }
   },
   {
-    "num": 179,
+    "num": 180,
     "sample": "T5B09",
     "correct": "B",
     "question": "Which decibel value most closely represents a power increase from 5 watts to 10 watts?",
@@ -2225,7 +2225,7 @@
     }
   },
   {
-    "num": 180,
+    "num": 181,
     "sample": "T5B10",
     "correct": "C",
     "question": "Which decibel value most closely represents a power decrease from 12 watts to 3 watts?",
@@ -2237,7 +2237,7 @@
     }
   },
   {
-    "num": 181,
+    "num": 182,
     "sample": "T5B11",
     "correct": "A",
     "question": "Which decibel value represents a power increase from 20 watts to 200 watts?",
@@ -2249,7 +2249,7 @@
     }
   },
   {
-    "num": 182,
+    "num": 183,
     "sample": "T5B12",
     "correct": "D",
     "question": "Which is equal to 28400 kHz?",
@@ -2261,7 +2261,7 @@
     }
   },
   {
-    "num": 183,
+    "num": 184,
     "sample": "T5B13",
     "correct": "C",
     "question": "Which is equal to 2425 MHz?",
@@ -2273,7 +2273,7 @@
     }
   },
   {
-    "num": 184,
+    "num": 185,
     "sample": "T5C01",
     "correct": "D",
     "question": "What describes the ability to store energy in an electric field?",
@@ -2285,7 +2285,7 @@
     }
   },
   {
-    "num": 185,
+    "num": 186,
     "sample": "T5C02",
     "correct": "A",
     "question": "What is the unit of capacitance?",
@@ -2297,7 +2297,7 @@
     }
   },
   {
-    "num": 186,
+    "num": 187,
     "sample": "T5C03",
     "correct": "D",
     "question": "What describes the ability to store energy in a magnetic field?",
@@ -2309,7 +2309,7 @@
     }
   },
   {
-    "num": 187,
+    "num": 188,
     "sample": "T5C04",
     "correct": "C",
     "question": "What is the unit of inductance?",
@@ -2321,7 +2321,7 @@
     }
   },
   {
-    "num": 188,
+    "num": 189,
     "sample": "T5C05",
     "correct": "D",
     "question": "What is the unit of impedance?",
@@ -2333,7 +2333,7 @@
     }
   },
   {
-    "num": 189,
+    "num": 190,
     "sample": "T5C06",
     "correct": "A",
     "question": "What does the abbreviation \"RF\" mean?",
@@ -2345,7 +2345,7 @@
     }
   },
   {
-    "num": 190,
+    "num": 191,
     "sample": "T5C07",
     "correct": "D",
     "question": "What is the abbreviation for megahertz?",
@@ -2357,7 +2357,7 @@
     }
   },
   {
-    "num": 191,
+    "num": 192,
     "sample": "T5C08",
     "correct": "A",
     "question": "What is the formula used to calculate electrical power (P) in a DC circuit?",
@@ -2369,7 +2369,7 @@
     }
   },
   {
-    "num": 192,
+    "num": 193,
     "sample": "T5C09",
     "correct": "A",
     "question": "How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?",
@@ -2381,7 +2381,7 @@
     }
   },
   {
-    "num": 193,
+    "num": 194,
     "sample": "T5C10",
     "correct": "B",
     "question": "How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?",
@@ -2393,7 +2393,7 @@
     }
   },
   {
-    "num": 194,
+    "num": 195,
     "sample": "T5C11",
     "correct": "B",
     "question": "How much current is required to deliver 120 watts at a voltage of 12 volts DC?",
@@ -2405,7 +2405,7 @@
     }
   },
   {
-    "num": 195,
+    "num": 196,
     "sample": "T5C12",
     "correct": "A",
     "question": "What is impedance?",
@@ -2417,7 +2417,7 @@
     }
   },
   {
-    "num": 196,
+    "num": 197,
     "sample": "T5C13",
     "correct": "D",
     "question": "What is the abbreviation for kilohertz?",
@@ -2429,7 +2429,7 @@
     }
   },
   {
-    "num": 197,
+    "num": 198,
     "sample": "T5D01",
     "correct": "B",
     "question": "What formula is used to calculate current in a circuit?",
@@ -2441,7 +2441,7 @@
     }
   },
   {
-    "num": 198,
+    "num": 199,
     "sample": "T5D02",
     "correct": "A",
     "question": "What formula is used to calculate voltage in a circuit?",
@@ -2453,7 +2453,7 @@
     }
   },
   {
-    "num": 199,
+    "num": 200,
     "sample": "T5D03",
     "correct": "B",
     "question": "What formula is used to calculate resistance in a circuit?",
@@ -2465,7 +2465,7 @@
     }
   },
   {
-    "num": 200,
+    "num": 201,
     "sample": "T5D04",
     "correct": "B",
     "question": "What is the resistance of a circuit in which a current of 3 amperes flows when connected to 90 volts?",
@@ -2477,7 +2477,7 @@
     }
   },
   {
-    "num": 201,
+    "num": 202,
     "sample": "T5D05",
     "correct": "D",
     "question": "What is the resistance of a circuit for which the applied voltage is 12 volts and the current flow is 1.5 amperes?",
@@ -2489,7 +2489,7 @@
     }
   },
   {
-    "num": 202,
+    "num": 203,
     "sample": "T5D06",
     "correct": "A",
     "question": "What is the resistance of a circuit that draws 4 amperes from a 12-volt source?",
@@ -2501,7 +2501,7 @@
     }
   },
   {
-    "num": 203,
+    "num": 204,
     "sample": "T5D07",
     "correct": "D",
     "question": "What is the current in a circuit with an applied voltage of 120 volts and a resistance of 80 ohms?",
@@ -2513,7 +2513,7 @@
     }
   },
   {
-    "num": 204,
+    "num": 205,
     "sample": "T5D08",
     "correct": "C",
     "question": "What is the current through a 100-ohm resistor connected across 200 volts?",
@@ -2525,7 +2525,7 @@
     }
   },
   {
-    "num": 205,
+    "num": 206,
     "sample": "T5D09",
     "correct": "C",
     "question": "What is the current through a 24-ohm resistor connected across 240 volts?",
@@ -2537,7 +2537,7 @@
     }
   },
   {
-    "num": 206,
+    "num": 207,
     "sample": "T5D10",
     "correct": "A",
     "question": "What is the voltage across a 2-ohm resistor if a current of 0.5 amperes flows through it?",
@@ -2549,7 +2549,7 @@
     }
   },
   {
-    "num": 207,
+    "num": 208,
     "sample": "T5D11",
     "correct": "B",
     "question": "What is the voltage across a 10-ohm resistor if a current of 1 ampere flows through it?",
@@ -2561,7 +2561,7 @@
     }
   },
   {
-    "num": 208,
+    "num": 209,
     "sample": "T5D12",
     "correct": "D",
     "question": "What is the voltage across a 10-ohm resistor if a current of 2 amperes flows through it?",
@@ -2573,7 +2573,7 @@
     }
   },
   {
-    "num": 209,
+    "num": 210,
     "sample": "T5D13",
     "correct": "A",
     "question": "In which type of circuit is DC current the same through all components?",
@@ -2585,7 +2585,7 @@
     }
   },
   {
-    "num": 210,
+    "num": 211,
     "sample": "T5D14",
     "correct": "B",
     "question": "In which type of circuit is voltage the same across all components?",
@@ -2597,7 +2597,7 @@
     }
   },
   {
-    "num": 211,
+    "num": 212,
     "sample": "T6A01",
     "correct": "B",
     "question": "What electrical component opposes the flow of current in a DC circuit?",
@@ -2609,7 +2609,7 @@
     }
   },
   {
-    "num": 212,
+    "num": 213,
     "sample": "T6A02",
     "correct": "C",
     "question": "What type of component is often used as an adjustable volume control?",
@@ -2621,7 +2621,7 @@
     }
   },
   {
-    "num": 213,
+    "num": 214,
     "sample": "T6A03",
     "correct": "B",
     "question": "What electrical parameter is controlled by a potentiometer?",
@@ -2633,7 +2633,7 @@
     }
   },
   {
-    "num": 214,
+    "num": 215,
     "sample": "T6A04",
     "correct": "B",
     "question": "What electrical component stores energy in an electric field?",
@@ -2645,7 +2645,7 @@
     }
   },
   {
-    "num": 215,
+    "num": 216,
     "sample": "T6A05",
     "correct": "D",
     "question": "What type of electrical component consists of conductive surfaces separated by an insulator?",
@@ -2657,7 +2657,7 @@
     }
   },
   {
-    "num": 216,
+    "num": 217,
     "sample": "T6A06",
     "correct": "C",
     "question": "What type of electrical component stores energy in a magnetic field?",
@@ -2669,7 +2669,7 @@
     }
   },
   {
-    "num": 217,
+    "num": 218,
     "sample": "T6A07",
     "correct": "D",
     "question": "What electrical component is typically constructed as a coil of wire?",
@@ -2681,7 +2681,7 @@
     }
   },
   {
-    "num": 218,
+    "num": 219,
     "sample": "T6A08",
     "correct": "C",
     "question": "What is the function of an SPDT switch?",
@@ -2693,7 +2693,7 @@
     }
   },
   {
-    "num": 219,
+    "num": 220,
     "sample": "T6A09",
     "correct": "A",
     "question": "What electrical component is used to protect other circuit components from current overloads?",
@@ -2705,7 +2705,7 @@
     }
   },
   {
-    "num": 220,
+    "num": 221,
     "sample": "T6A10",
     "correct": "D",
     "question": "Which of the following battery chemistries is rechargeable?",
@@ -2717,7 +2717,7 @@
     }
   },
   {
-    "num": 221,
+    "num": 222,
     "sample": "T6A11",
     "correct": "B",
     "question": "Which of the following battery chemistries is not rechargeable?",
@@ -2729,7 +2729,7 @@
     }
   },
   {
-    "num": 222,
+    "num": 223,
     "sample": "T6A12",
     "correct": "A",
     "question": "What type of switch is represented by component 3 in figure T-2?",
@@ -2742,7 +2742,7 @@
     "figure": "figure_t2.png"
   },
   {
-    "num": 223,
+    "num": 224,
     "sample": "T6B01",
     "correct": "A",
     "question": "Which is true about forward voltage drop in a diode?",
@@ -2754,7 +2754,7 @@
     }
   },
   {
-    "num": 224,
+    "num": 225,
     "sample": "T6B02",
     "correct": "C",
     "question": "What electronic component allows current to flow in only one direction?",
@@ -2766,7 +2766,7 @@
     }
   },
   {
-    "num": 225,
+    "num": 226,
     "sample": "T6B03",
     "correct": "C",
     "question": "Which of these components can be used as an electronic switch?",
@@ -2778,7 +2778,7 @@
     }
   },
   {
-    "num": 226,
+    "num": 227,
     "sample": "T6B04",
     "correct": "B",
     "question": "Which of the following components can consist of three regions of semiconductor material?",
@@ -2790,7 +2790,7 @@
     }
   },
   {
-    "num": 227,
+    "num": 228,
     "sample": "T6B05",
     "correct": "B",
     "question": "What type of transistor has a gate, drain, and source?",
@@ -2802,7 +2802,7 @@
     }
   },
   {
-    "num": 228,
+    "num": 229,
     "sample": "T6B06",
     "correct": "B",
     "question": "How is the cathode lead of a semiconductor diode often marked on the package?",
@@ -2814,7 +2814,7 @@
     }
   },
   {
-    "num": 229,
+    "num": 230,
     "sample": "T6B07",
     "correct": "A",
     "question": "What causes a light-emitting diode (LED) to emit light?",
@@ -2826,7 +2826,7 @@
     }
   },
   {
-    "num": 230,
+    "num": 231,
     "sample": "T6B08",
     "correct": "D",
     "question": "What does the abbreviation FET stand for?",
@@ -2838,7 +2838,7 @@
     }
   },
   {
-    "num": 231,
+    "num": 232,
     "sample": "T6B09",
     "correct": "C",
     "question": "What are the names for the electrodes of a diode?",
@@ -2850,7 +2850,7 @@
     }
   },
   {
-    "num": 232,
+    "num": 233,
     "sample": "T6B10",
     "correct": "B",
     "question": "Which of the following can provide power gain?",
@@ -2862,7 +2862,7 @@
     }
   },
   {
-    "num": 233,
+    "num": 234,
     "sample": "T6B11",
     "correct": "A",
     "question": "What is the term that describes a device's ability to amplify a signal?",
@@ -2874,7 +2874,7 @@
     }
   },
   {
-    "num": 234,
+    "num": 235,
     "sample": "T6B12",
     "correct": "B",
     "question": "What are the names of the electrodes of a bipolar junction transistor?",
@@ -2886,7 +2886,7 @@
     }
   },
   {
-    "num": 235,
+    "num": 236,
     "sample": "T6C01",
     "correct": "C",
     "question": "What is the name of an electrical wiring diagram that uses standard component symbols?",
@@ -2898,7 +2898,7 @@
     }
   },
   {
-    "num": 236,
+    "num": 237,
     "sample": "T6C02",
     "correct": "A",
     "question": "What is component 1 in figure T-1?",
@@ -2911,7 +2911,7 @@
     "figure": "figure_t1.png"
   },
   {
-    "num": 237,
+    "num": 238,
     "sample": "T6C03",
     "correct": "B",
     "question": "What is component 2 in figure T-1?",
@@ -2924,7 +2924,7 @@
     "figure": "figure_t2.png"
   },
   {
-    "num": 238,
+    "num": 239,
     "sample": "T6C04",
     "correct": "C",
     "question": "What is component 3 in figure T-1?",
@@ -2937,7 +2937,7 @@
     "figure": "figure_t1.png"
   },
   {
-    "num": 239,
+    "num": 240,
     "sample": "T6C05",
     "correct": "D",
     "question": "What is component 4 in figure T-1?",
@@ -2950,7 +2950,7 @@
     "figure": "figure_t1.png"
   },
   {
-    "num": 240,
+    "num": 241,
     "sample": "T6C06",
     "correct": "B",
     "question": "What is component 6 in figure T-2",
@@ -2963,7 +2963,7 @@
     "figure": "figure_t2.png"
   },
   {
-    "num": 241,
+    "num": 242,
     "sample": "T6C07",
     "correct": "D",
     "question": "What is component 8 in figure T-2",
@@ -2976,7 +2976,7 @@
     "figure": "figure_t2.png"
   },
   {
-    "num": 242,
+    "num": 243,
     "sample": "T6C08",
     "correct": "C",
     "question": "What is component 9 in figure T-2",
@@ -2989,7 +2989,7 @@
     "figure": "figure_t2.png"
   },
   {
-    "num": 243,
+    "num": 244,
     "sample": "T6C09",
     "correct": "D",
     "question": "What is component 4 in figure T-2",
@@ -3002,7 +3002,7 @@
     "figure": "figure_t2.png"
   },
   {
-    "num": 244,
+    "num": 245,
     "sample": "T6C10",
     "correct": "D",
     "question": "What is component 4 in figure T-3",
@@ -3015,7 +3015,7 @@
     "figure": "figure_t3.png"
   },
   {
-    "num": 245,
+    "num": 246,
     "sample": "T6C11",
     "correct": "A",
     "question": "What is component 4 in figure T-3",
@@ -3028,7 +3028,7 @@
     "figure": "figure_t3.png"
   },
   {
-    "num": 246,
+    "num": 247,
     "sample": "T6C12",
     "correct": "C",
     "question": "Which of the following is accurately represented in electrical schematics?",
@@ -3040,7 +3040,7 @@
     }
   },
   {
-    "num": 247,
+    "num": 248,
     "sample": "T6D01",
     "correct": "B",
     "question": "Which of the following devices or circuits changes an alternating current into a varying direct current signal?",
@@ -3052,7 +3052,7 @@
     }
   },
   {
-    "num": 248,
+    "num": 249,
     "sample": "T6D02",
     "correct": "A",
     "question": "What is a relay?",
@@ -3064,7 +3064,7 @@
     }
   },
   {
-    "num": 249,
+    "num": 250,
     "sample": "T6D03",
     "correct": "C",
     "question": "Which of the following is a reason to use shielded wire?",
@@ -3076,7 +3076,7 @@
     }
   },
   {
-    "num": 250,
+    "num": 251,
     "sample": "T6D04",
     "correct": "C",
     "question": "Which of the following displays an electrical quantity as a numeric value?",
@@ -3088,7 +3088,7 @@
     }
   },
   {
-    "num": 251,
+    "num": 252,
     "sample": "T6D05",
     "correct": "A",
     "question": "What type of circuit controls the amount of voltage from a power supply?",
@@ -3100,7 +3100,7 @@
     }
   },
   {
-    "num": 252,
+    "num": 253,
     "sample": "T6D06",
     "correct": "B",
     "question": "What component changes 120 V AC power to a lower AC voltage for other uses?",
@@ -3112,7 +3112,7 @@
     }
   },
   {
-    "num": 253,
+    "num": 254,
     "sample": "T6D07",
     "correct": "A",
     "question": "Which of the following is commonly used as a visual indicator?",
@@ -3124,7 +3124,7 @@
     }
   },
   {
-    "num": 254,
+    "num": 255,
     "sample": "T6D08",
     "correct": "D",
     "question": "Which of the following is combined with an inductor to make a resonant circuit?",
@@ -3136,7 +3136,7 @@
     }
   },
   {
-    "num": 255,
+    "num": 256,
     "sample": "T6D09",
     "correct": "C",
     "question": "What is the name of a device that combines several semiconductors and other components into one package?",
@@ -3148,7 +3148,7 @@
     }
   },
   {
-    "num": 256,
+    "num": 257,
     "sample": "T6D10",
     "correct": "C",
     "question": "What is the function of component 2 in figure T-1?",
@@ -3161,7 +3161,7 @@
     "figure": "figure_t1.png"
   },
   {
-    "num": 257,
+    "num": 258,
     "sample": "T6D11",
     "correct": "A",
     "question": "Which of the following is a resonant or tuned circuit?",
@@ -3173,7 +3173,7 @@
     }
   },
   {
-    "num": 258,
+    "num": 259,
     "sample": "T7A01",
     "correct": "B",
     "question": "Which term describes the ability of a receiver to detect the presence of a signal?",
@@ -3185,7 +3185,7 @@
     }
   },
   {
-    "num": 259,
+    "num": 260,
     "sample": "T7A02",
     "correct": "A",
     "question": "What is a transceiver?",
@@ -3197,7 +3197,7 @@
     }
   },
   {
-    "num": 260,
+    "num": 261,
     "sample": "T7A03",
     "correct": "B",
     "question": "Which of the following is used to convert a signal from one frequency to another?",
@@ -3209,7 +3209,7 @@
     }
   },
   {
-    "num": 261,
+    "num": 262,
     "sample": "T7A04",
     "correct": "C",
     "question": "Which term describes the ability of a receiver to discriminate between multiple signals?",
@@ -3221,7 +3221,7 @@
     }
   },
   {
-    "num": 262,
+    "num": 263,
     "sample": "T7A05",
     "correct": "D",
     "question": "What is the name of a circuit that generates a signal at a specific frequency?",
@@ -3233,7 +3233,7 @@
     }
   },
   {
-    "num": 263,
+    "num": 264,
     "sample": "T7A06",
     "correct": "C",
     "question": "What device converts the RF input and output of a transceiver to another band?",
@@ -3245,7 +3245,7 @@
     }
   },
   {
-    "num": 264,
+    "num": 265,
     "sample": "T7A07",
     "correct": "B",
     "question": "What is the function of a transceiver’s PTT input?",
@@ -3257,7 +3257,7 @@
     }
   },
   {
-    "num": 265,
+    "num": 266,
     "sample": "T7A08",
     "correct": "C",
     "question": "Which of the following describes combining speech with an RF carrier signal?",
@@ -3269,7 +3269,7 @@
     }
   },
   {
-    "num": 266,
+    "num": 267,
     "sample": "T7A09",
     "correct": "B",
     "question": "What is the function of the SSB/CW-FM switch on a VHF power amplifier?",
@@ -3281,7 +3281,7 @@
     }
   },
   {
-    "num": 267,
+    "num": 268,
     "sample": "T7A10",
     "correct": "B",
     "question": "What device increases the transmitted output power from a transceiver?",
@@ -3293,7 +3293,7 @@
     }
   },
   {
-    "num": 268,
+    "num": 269,
     "sample": "T7A11",
     "correct": "A",
     "question": "Where is an RF preamplifier installed?",
@@ -3305,7 +3305,7 @@
     }
   },
   {
-    "num": 269,
+    "num": 270,
     "sample": "T7B01",
     "correct": "D",
     "question": "What can you do if you are told your FM handheld or mobile transceiver is over-deviating?",
@@ -3317,7 +3317,7 @@
     }
   },
   {
-    "num": 270,
+    "num": 271,
     "sample": "TB02",
     "correct": "A",
     "question": "What would cause a broadcast AM or FM radio to receive an amateur radio transmission unintentionally?",
@@ -3329,7 +3329,7 @@
     }
   },
   {
-    "num": 271,
+    "num": 272,
     "sample": "T7B03",
     "correct": "D",
     "question": "Which of the following can cause radio frequency interference?",
@@ -3341,7 +3341,7 @@
     }
   },
   {
-    "num": 272,
+    "num": 273,
     "sample": "T7B04",
     "correct": "D",
     "question": "Which of the following could you use to cure distorted audio caused by RF current on the shield of a microphone cable?",
@@ -3353,7 +3353,7 @@
     }
   },
   {
-    "num": 273,
+    "num": 274,
     "sample": "T7B05",
     "correct": "A",
     "question": "How can fundamental overload of a non-amateur radio or TV receiver by an amateur signal be reduced or eliminated?",
@@ -3365,7 +3365,7 @@
     }
   },
   {
-    "num": 274,
+    "num": 275,
     "sample": "T7B06",
     "correct": "A",
     "question": "Which of the following actions should you take if a neighbor tells you that your station’s transmissions are interfering with their radio or TV reception?",
@@ -3377,7 +3377,7 @@
     }
   },
   {
-    "num": 275,
+    "num": 276,
     "sample": "T7B07",
     "correct": "D",
     "question": "Which of the following can reduce overload of a VHF transceiver by a nearby commercial FM station?",
@@ -3389,7 +3389,7 @@
     }
   },
   {
-    "num": 276,
+    "num": 277,
     "sample": "T7B08",
     "correct": "D",
     "question": "What should you do if something in a neighbor’s home is causing harmful interference to your amateur station?",
@@ -3401,7 +3401,7 @@
     }
   },
   {
-    "num": 277,
+    "num": 278,
     "sample": "T7B09",
     "correct": "D",
     "question": "What should be the first step to resolve non-fiber optic cable TV interference caused by your amateur radio transmission?",
@@ -3413,7 +3413,7 @@
     }
   },
   {
-    "num": 278,
+    "num": 279,
     "sample": "T7B10",
     "correct": "D",
     "question": "What might be a problem if you receive a report that your audio signal through an FM repeater is distorted or unintelligible?",
@@ -3425,7 +3425,7 @@
     }
   },
   {
-    "num": 279,
+    "num": 280,
     "sample": "T7B11",
     "correct": "C",
     "question": "What is a symptom of RF feedback in a transmitter or transceiver?",
@@ -3437,7 +3437,7 @@
     }
   },
   {
-    "num": 280,
+    "num": 281,
     "sample": "T7C01",
     "correct": "A",
     "question": "What is the primary purpose of a dummy load?",
@@ -3449,7 +3449,7 @@
     }
   },
   {
-    "num": 281,
+    "num": 282,
     "sample": "T7C02",
     "correct": "B",
     "question": "Which of the following is used to determine if an antenna is resonant at the desired operating frequency?",
@@ -3457,11 +3457,11 @@
       "a": "A. A VTVM",
       "b": "B. An antenna analyzer",
       "c": "C. A Q meter",
-      "d": "C. A Q meter"
+      "d": "D. A frequency counter"
     }
   },
   {
-    "num": 282,
+    "num": 283,
     "sample": "T7C03",
     "correct": "B",
     "question": "What does a dummy load consist of?",
@@ -3473,7 +3473,7 @@
     }
   },
   {
-    "num": 283,
+    "num": 284,
     "sample": "T7C04",
     "correct": "C",
     "question": "What reading on an SWR meter indicates a perfect impedance match between the antenna and the feed line?",
@@ -3485,7 +3485,7 @@
     }
   },
   {
-    "num": 284,
+    "num": 285,
     "sample": "T7C05",
     "correct": "A",
     "question": "Why do most solid-state transmitters reduce output power as SWR increases beyond a certain level?",
@@ -3497,7 +3497,7 @@
     }
   },
   {
-    "num": 285,
+    "num": 286,
     "sample": "T7C06",
     "correct": "D",
     "question": "What does an SWR reading of 4:1 indicate?",
@@ -3509,7 +3509,7 @@
     }
   },
   {
-    "num": 286,
+    "num": 287,
     "sample": "T7C07",
     "correct": "C",
     "question": "What happens to power lost in a feed line?",
@@ -3521,7 +3521,7 @@
     }
   },
   {
-    "num": 287,
+    "num": 288,
     "sample": "T7C08",
     "correct": "D",
     "question": "Which instrument can be used to determine SWR?",
@@ -3533,7 +3533,7 @@
     }
   },
   {
-    "num": 288,
+    "num": 289,
     "sample": "T7C09",
     "correct": "A",
     "question": "Which of the following causes failure of coaxial cables?",
@@ -3545,7 +3545,7 @@
     }
   },
   {
-    "num": 289,
+    "num": 290,
     "sample": "T7C10",
     "correct": "D",
     "question": "Why should the outer jacket of coaxial cable be resistant to ultraviolet light?",
@@ -3557,7 +3557,7 @@
     }
   },
   {
-    "num": 290,
+    "num": 291,
     "sample": "T7C11",
     "correct": "C",
     "question": "What is a disadvantage of air core coaxial cable when compared to foam or solid dielectric types?",
@@ -3569,7 +3569,7 @@
     }
   },
   {
-    "num": 291,
+    "num": 292,
     "sample": "T7D01",
     "correct": "B",
     "question": "Which instrument would you use to measure electric potential?",
@@ -3581,7 +3581,7 @@
     }
   },
   {
-    "num": 292,
+    "num": 293,
     "sample": "T7D02",
     "correct": "B",
     "question": "How is a voltmeter connected to a component to measure applied voltage?",
@@ -3593,7 +3593,7 @@
     }
   },
   {
-    "num": 293,
+    "num": 294,
     "sample": "T7D03",
     "correct": "A",
     "question": "When configured to measure current, how is a multimeter connected to a component?",
@@ -3605,7 +3605,7 @@
     }
   },
   {
-    "num": 294,
+    "num": 295,
     "sample": "T7D04",
     "correct": "D",
     "question": "Which instrument is used to measure electric current?",
@@ -3617,12 +3617,12 @@
     }
   },
   {
-    "num": 295,
+    "num": 296,
     "sample": "T7D05",
     "removed": true
   },
   {
-    "num": 296,
+    "num": 297,
     "sample": "T7D06",
     "correct": "C",
     "question": "Which of the following can damage a multimeter?",
@@ -3634,7 +3634,7 @@
     }
   },
   {
-    "num": 297,
+    "num": 298,
     "sample": "T7D07",
     "correct": "C",
     "question": "Which of the following measurements are made using a multimeter?",
@@ -3646,7 +3646,7 @@
     }
   },
   {
-    "num": 298,
+    "num": 299,
     "sample": "T7D08",
     "correct": "A",
     "question": "Which of the following types of solder should not be used for radio and electronic applications?",
@@ -3658,7 +3658,7 @@
     }
   },
   {
-    "num": 299,
+    "num": 300,
     "sample": "T7D09",
     "correct": "C",
     "question": "What is the characteristic appearance of a cold tin-lead solder joint?",
@@ -3670,7 +3670,7 @@
     }
   },
   {
-    "num": 300,
+    "num": 301,
     "sample": "T7D10",
     "correct": "A",
     "question": "What reading indicates that an ohmmeter is connected across a large, discharged capacitor?",
@@ -3682,7 +3682,7 @@
     }
   },
   {
-    "num": 301,
+    "num": 302,
     "sample": "T7D11",
     "correct": "B",
     "question": "Which of the following precautions should be taken when measuring in-circuit resistance with an ohmmeter?",
@@ -3694,7 +3694,7 @@
     }
   },
   {
-    "num": 302,
+    "num": 303,
     "sample": "T8A01",
     "correct": "C",
     "question": "Which of the following is a form of amplitude modulation?",
@@ -3706,7 +3706,7 @@
     }
   },
   {
-    "num": 303,
+    "num": 304,
     "sample": "T8A02",
     "correct": "A",
     "question": "What type of modulation is commonly used for VHF packet radio transmissions?",
@@ -3718,7 +3718,7 @@
     }
   },
   {
-    "num": 304,
+    "num": 305,
     "sample": "T8B03",
     "correct": "C",
     "question": "Which type of voice mode is often used for long-distance (weak signal) contacts on the VHF and UHF bands?",
@@ -3730,7 +3730,7 @@
     }
   },
   {
-    "num": 305,
+    "num": 306,
     "sample": "T8B04",
     "correct": "D",
     "question": "Which type of modulation is commonly used for VHF and UHF voice repeaters?",
@@ -3742,7 +3742,7 @@
     }
   },
   {
-    "num": 306,
+    "num": 307,
     "sample": "T8A05",
     "correct": "C",
     "question": "Which of the following types of signal has the narrowest bandwidth?",
@@ -3754,7 +3754,7 @@
     }
   },
   {
-    "num": 307,
+    "num": 308,
     "sample": "T8A06",
     "correct": "A",
     "question": "Which sideband is normally used for 10 meter HF, VHF, and UHF single-sideband communications?",
@@ -3766,7 +3766,7 @@
     }
   },
   {
-    "num": 308,
+    "num": 309,
     "sample": "T8A07",
     "correct": "C",
     "question": "What is a characteristic of single sideband (SSB) compared to FM?",
@@ -3778,7 +3778,7 @@
     }
   },
   {
-    "num": 309,
+    "num": 310,
     "sample": "T8A08",
     "correct": "B",
     "question": "What is the approximate bandwidth of a typical single sideband (SSB) voice signal?",
@@ -3790,7 +3790,7 @@
     }
   },
   {
-    "num": 310,
+    "num": 311,
     "sample": "T8A09",
     "correct": "C",
     "question": "What is the approximate bandwidth of a VHF repeater FM voice signal?",
@@ -3802,7 +3802,7 @@
     }
   },
   {
-    "num": 311,
+    "num": 312,
     "sample": "T8A10",
     "correct": "B",
     "question": "What is the approximate bandwidth of AM fast-scan TV transmissions?",
@@ -3814,7 +3814,7 @@
     }
   },
   {
-    "num": 312,
+    "num": 313,
     "sample": "T8A11",
     "correct": "B",
     "question": "What is the approximate bandwidth required to transmit a CW signal?",
@@ -3826,7 +3826,7 @@
     }
   },
   {
-    "num": 313,
+    "num": 314,
     "sample": "T8A12",
     "correct": "B",
     "question": "Which of the following is a disadvantage of FM compared with single sideband?",
@@ -3838,7 +3838,7 @@
     }
   },
   {
-    "num": 314,
+    "num": 315,
     "sample": "T8B01",
     "correct": "B",
     "question": "What telemetry information is typically transmitted by satellite beacons?",
@@ -3850,7 +3850,7 @@
     }
   },
   {
-    "num": 315,
+    "num": 316,
     "sample": "T8B02",
     "correct": "B",
     "question": "What is the impact of using excessive effective radiated power on a satellite uplink?",
@@ -3862,7 +3862,7 @@
     }
   },
   {
-    "num": 316,
+    "num": 317,
     "sample": "T8B03",
     "correct": "D",
     "question": "Which of the following are provided by satellite tracking programs?",
@@ -3874,7 +3874,7 @@
     }
   },
   {
-    "num": 317,
+    "num": 318,
     "sample": "T8B04",
     "correct": "D",
     "question": "What mode of transmission is commonly used by amateur radio satellites?",
@@ -3886,7 +3886,7 @@
     }
   },
   {
-    "num": 318,
+    "num": 319,
     "sample": "T8B05",
     "correct": "D",
     "question": "What is a satellite beacon?",
@@ -3898,7 +3898,7 @@
     }
   },
   {
-    "num": 319,
+    "num": 320,
     "sample": "T8B06",
     "correct": "B",
     "question": "Which of the following are inputs to a satellite tracking program?",
@@ -3910,7 +3910,7 @@
     }
   },
   {
-    "num": 320,
+    "num": 321,
     "sample": "T8B07",
     "correct": "C",
     "question": "What is Doppler shift in reference to satellite communications?",
@@ -3922,7 +3922,7 @@
     }
   },
   {
-    "num": 321,
+    "num": 322,
     "sample": "T8B08",
     "correct": "B",
     "question": "What is meant by the statement that a satellite is operating in U/V mode?",
@@ -3934,7 +3934,7 @@
     }
   },
   {
-    "num": 322,
+    "num": 323,
     "sample": "T8B09",
     "correct": "B",
     "question": "What causes spin fading of satellite signals?",
@@ -3946,7 +3946,7 @@
     }
   },
   {
-    "num": 323,
+    "num": 324,
     "sample": "T8B10",
     "correct": "D",
     "question": "What is a LEO satellite?",
@@ -3958,7 +3958,7 @@
     }
   },
   {
-    "num": 324,
+    "num": 325,
     "sample": "T8B11",
     "correct": "A",
     "question": "Who may receive telemetry from a space station?",
@@ -3970,7 +3970,7 @@
     }
   },
   {
-    "num": 325,
+    "num": 326,
     "sample": "T8B12",
     "correct": "C",
     "question": "Which of the following is a way to determine whether your satellite uplink power is neither too low nor too high?",
@@ -3982,7 +3982,7 @@
     }
   },
   {
-    "num": 326,
+    "num": 327,
     "sample": "T8C01",
     "correct": "C",
     "question": "Which of the following methods is used to locate sources of noise interference or jamming?",
@@ -3994,7 +3994,7 @@
     }
   },
   {
-    "num": 327,
+    "num": 328,
     "sample": "T8C02",
     "correct": "B",
     "question": "Which of these items would be useful for a hidden transmitter hunt?",
@@ -4006,7 +4006,7 @@
     }
   },
   {
-    "num": 328,
+    "num": 329,
     "sample": "T8C03",
     "correct": "D",
     "question": "What operating activity involves contacting as many stations as possible during a specified period?",
@@ -4018,7 +4018,7 @@
     }
   },
   {
-    "num": 329,
+    "num": 330,
     "sample": "T8C04",
     "correct": "C",
     "question": "Which of the following is good procedure when contacting another station in a contest?",
@@ -4030,7 +4030,7 @@
     }
   },
   {
-    "num": 330,
+    "num": 331,
     "sample": "T8C05",
     "correct": "A",
     "question": "What is a grid locator?",
@@ -4042,7 +4042,7 @@
     }
   },
   {
-    "num": 331,
+    "num": 332,
     "sample": "T8C06",
     "correct": "B",
     "question": "How is over the air access to IRLP nodes accomplished?",
@@ -4054,7 +4054,7 @@
     }
   },
   {
-    "num": 332,
+    "num": 333,
     "sample": "T8C07",
     "correct": "D",
     "question": "What is Voice Over Internet Protocol (VoIP)?",
@@ -4066,7 +4066,7 @@
     }
   },
   {
-    "num": 333,
+    "num": 334,
     "sample": "T8C08",
     "correct": "A",
     "question": "What is the Internet Radio Linking Project (IRLP)?",
@@ -4078,7 +4078,7 @@
     }
   },
   {
-    "num": 334,
+    "num": 335,
     "sample": "T8C09",
     "correct": "D",
     "question": "Which of the following protocols enables an amateur station to transmit through a repeater without using a radio to initiate the transmission?",
@@ -4090,7 +4090,7 @@
     }
   },
   {
-    "num": 335,
+    "num": 336,
     "sample": "T8C10",
     "correct": "C",
     "question": "What is required before using the EchoLink system?",
@@ -4102,7 +4102,7 @@
     }
   },
   {
-    "num": 336,
+    "num": 337,
     "sample": "T8C11",
     "correct": "A",
     "question": "What is an amateur radio station that connects other amateur stations to the internet?",
@@ -4114,7 +4114,7 @@
     }
   },
   {
-    "num": 337,
+    "num": 338,
     "sample": "T8D01",
     "correct": "D",
     "question": "Which of the following is a digital communications mode?",
@@ -4126,7 +4126,7 @@
     }
   },
   {
-    "num": 338,
+    "num": 339,
     "sample": "T8D02",
     "correct": "B",
     "question": "What is a \"talkgroup\" on a DMR repeater?",
@@ -4138,7 +4138,7 @@
     }
   },
   {
-    "num": 339,
+    "num": 340,
     "sample": "T8D03",
     "correct": "D",
     "question": "What kind of data can be transmitted by APRS?",
@@ -4150,7 +4150,7 @@
     }
   },
   {
-    "num": 340,
+    "num": 341,
     "sample": "T8D04",
     "correct": "C",
     "question": "What type of transmission is indicated by the term \"NTSC?\"",
@@ -4162,7 +4162,7 @@
     }
   },
   {
-    "num": 341,
+    "num": 342,
     "sample": "T8D05",
     "correct": "A",
     "question": "Which of the following is an application of APRS?",
@@ -4174,7 +4174,7 @@
     }
   },
   {
-    "num": 342,
+    "num": 343,
     "sample": "T8D06",
     "correct": "B",
     "question": "What does the abbreviation \"PSK\" mean?",
@@ -4186,7 +4186,7 @@
     }
   },
   {
-    "num": 343,
+    "num": 344,
     "sample": "T8D07",
     "correct": "A",
     "question": "Which of the following describes DMR?",
@@ -4198,19 +4198,18 @@
     }
   },
   {
-    "num": 344,
+    "num": 345,
     "sample": "T8D08",
     "correct": "D",
     "question": "Which of the following is included in packet radio transmissions?",
     "answers": {
-      "a": "A. A check sum that permits error detection",
       "b": "B. A header that contains the call sign of the station to which the information is being sent",
       "c": "C. Automatic repeat request in case of error",
       "d": "D. All these choices are correct"
     }
   },
   {
-    "num": 345,
+    "num": 346,
     "sample": "T8D09",
     "correct": "D",
     "question": "What is CW?",
@@ -4222,7 +4221,7 @@
     }
   },
   {
-    "num": 346,
+    "num": 347,
     "sample": "T8D10",
     "correct": "D",
     "question": "Which of the following operating activities is supported by digital mode software in the WSJT-X software suite?",
@@ -4234,7 +4233,7 @@
     }
   },
   {
-    "num": 347,
+    "num": 348,
     "sample": "T8D11",
     "correct": "C",
     "question": "What is an ARQ transmission system?",
@@ -4246,7 +4245,7 @@
     }
   },
   {
-    "num": 348,
+    "num": 349,
     "sample": "T8D12",
     "correct": "A",
     "question": "Which of the following best describes an amateur radio mesh network?",
@@ -4258,7 +4257,7 @@
     }
   },
   {
-    "num": 349,
+    "num": 350,
     "sample": "T8D13",
     "correct": "B",
     "question": "What is FT8?",
@@ -4270,7 +4269,7 @@
     }
   },
   {
-    "num": 350,
+    "num": 351,
     "sample": "T9A01",
     "correct": "C",
     "question": "What is a beam antenna?",
@@ -4282,7 +4281,7 @@
     }
   },
   {
-    "num": 351,
+    "num": 352,
     "sample": "T9A02",
     "correct": "A",
     "question": "Which of the following describes a type of antenna loading?",
@@ -4294,7 +4293,7 @@
     }
   },
   {
-    "num": 352,
+    "num": 353,
     "sample": "T9A03",
     "correct": "B",
     "question": "Which of the following describes a simple dipole oriented parallel to Earth's surface?",
@@ -4306,7 +4305,7 @@
     }
   },
   {
-    "num": 353,
+    "num": 354,
     "sample": "T9A04",
     "correct": "A",
     "question": "What is a disadvantage of the short, flexible antenna supplied with most handheld radio transceivers, compared to a full-sized quarter-wave antenna?",
@@ -4318,7 +4317,7 @@
     }
   },
   {
-    "num": 354,
+    "num": 355,
     "sample": "T9A05",
     "correct": "C",
     "question": "Which of the following increases the resonant frequency of a dipole antenna?",
@@ -4330,7 +4329,7 @@
     }
   },
   {
-    "num": 355,
+    "num": 356,
     "sample": "T9A06",
     "correct": "D",
     "question": "Which of the following types of antenna offers the greatest gain?",
@@ -4342,7 +4341,7 @@
     }
   },
   {
-    "num": 356,
+    "num": 357,
     "sample": "T9A07",
     "correct": "A",
     "question": "What is a disadvantage of using a handheld VHF transceiver with a flexible antenna inside a vehicle?",
@@ -4354,7 +4353,7 @@
     }
   },
   {
-    "num": 357,
+    "num": 358,
     "sample": "T9A08",
     "correct": "C",
     "question": "What is the approximate length, in inches, of a quarter-wavelength vertical antenna for 146 MHz?",
@@ -4366,7 +4365,7 @@
     }
   },
   {
-    "num": 358,
+    "num": 359,
     "sample": "T9A09",
     "correct": "C",
     "question": "What is the approximate length, in inches, of a half-wavelength 6 meter dipole antenna?",
@@ -4378,7 +4377,7 @@
     }
   },
   {
-    "num": 359,
+    "num": 360,
     "sample": "T9A10",
     "correct": "D",
     "question": "In which direction does a half-wave dipole antenna radiate the strongest signal?",
@@ -4390,7 +4389,7 @@
     }
   },
   {
-    "num": 360,
+    "num": 361,
     "sample": "T9A11",
     "correct": "C",
     "question": "What is antenna gain?",
@@ -4402,7 +4401,7 @@
     }
   },
   {
-    "num": 361,
+    "num": 362,
     "sample": "T9A12",
     "correct": "A",
     "question": "What is an advantage of a 5/8 wavelength whip antenna for VHF or UHF mobile service?",
@@ -4414,7 +4413,7 @@
     }
   },
   {
-    "num": 362,
+    "num": 363,
     "sample": "T9B01",
     "correct": "B",
     "question": "What is a benefit of low SWR?",
@@ -4426,7 +4425,7 @@
     }
   },
   {
-    "num": 363,
+    "num": 364,
     "sample": "T9B02",
     "correct": "B",
     "question": "What is the most common impedance of coaxial cables used in amateur radio?",
@@ -4438,7 +4437,7 @@
     }
   },
   {
-    "num": 364,
+    "num": 365,
     "sample": "T9B03",
     "correct": "A",
     "question": "Why is coaxial cable the most common feed line for amateur radio antenna systems?",
@@ -4450,7 +4449,7 @@
     }
   },
   {
-    "num": 365,
+    "num": 366,
     "sample": "T9B04",
     "correct": "A",
     "question": "What is the major function of an antenna tuner (antenna coupler)?",
@@ -4462,7 +4461,7 @@
     }
   },
   {
-    "num": 366,
+    "num": 367,
     "sample": "T9B05",
     "correct": "D",
     "question": "What happens as the frequency of a signal in coaxial cable is increased?",
@@ -4474,7 +4473,7 @@
     }
   },
   {
-    "num": 367,
+    "num": 368,
     "sample": "T9B06",
     "correct": "B",
     "question": "Which of the following RF connector types is most suitable for frequencies above 400 MHz?",
@@ -4486,7 +4485,7 @@
     }
   },
   {
-    "num": 368,
+    "num": 369,
     "sample": "T9B07",
     "correct": "C",
     "question": "Which of the following is true of PL-259 type coax connectors?",
@@ -4498,7 +4497,7 @@
     }
   },
   {
-    "num": 369,
+    "num": 370,
     "sample": "T9B08",
     "correct": "D",
     "question": "Which of the following is a source of loss in coaxial feed line?",
@@ -4510,7 +4509,7 @@
     }
   },
   {
-    "num": 370,
+    "num": 371,
     "sample": "T9B09",
     "correct": "B",
     "question": "What can cause erratic changes in SWR?",
@@ -4522,7 +4521,7 @@
     }
   },
   {
-    "num": 371,
+    "num": 372,
     "sample": "T9B10",
     "correct": "C",
     "question": "What is the electrical difference between RG-58 and RG-213 coaxial cable?",
@@ -4534,7 +4533,7 @@
     }
   },
   {
-    "num": 372,
+    "num": 373,
     "sample": "T9B11",
     "correct": "C",
     "question": "Which of the following types of feed line has the lowest loss at VHF and UHF?",
@@ -4546,7 +4545,7 @@
     }
   },
   {
-    "num": 373,
+    "num": 374,
     "sample": "T9B12",
     "correct": "A",
     "question": "What is standing wave ratio (SWR)?",
@@ -4558,7 +4557,7 @@
     }
   },
   {
-    "num": 374,
+    "num": 375,
     "sample": "T0A01",
     "correct": "B",
     "question": "Which of the following is a safety hazard of a 12-volt storage battery?",
@@ -4570,7 +4569,7 @@
     }
   },
   {
-    "num": 375,
+    "num": 376,
     "sample": "T0A02",
     "correct": "D",
     "question": "What health hazard is presented by electrical current flowing through the body?",
@@ -4582,7 +4581,7 @@
     }
   },
   {
-    "num": 376,
+    "num": 377,
     "sample": "T0A03",
     "correct": "B",
     "question": "In the United States, what circuit does black wire insulation indicate in a three-wire 120 V cable?",
@@ -4594,7 +4593,7 @@
     }
   },
   {
-    "num": 377,
+    "num": 378,
     "sample": "T0A04",
     "correct": "B",
     "question": "What is the purpose of a fuse in an electrical circuit?",
@@ -4606,7 +4605,7 @@
     }
   },
   {
-    "num": 378,
+    "num": 379,
     "sample": "T0A05",
     "correct": "C",
     "question": "Why should a 5-ampere fuse never be replaced with a 20-ampere fuse?",
@@ -4618,7 +4617,7 @@
     }
   },
   {
-    "num": 379,
+    "num": 380,
     "sample": "T0A06",
     "correct": "D",
     "question": "What is a good way to guard against electrical shock at your station?",
@@ -4630,7 +4629,7 @@
     }
   },
   {
-    "num": 380,
+    "num": 381,
     "sample": "T0A07",
     "correct": "D",
     "question": "Where should a lightning arrester be installed in a coaxial feed line?",
@@ -4642,7 +4641,7 @@
     }
   },
   {
-    "num": 381,
+    "num": 382,
     "sample": "T0A08",
     "correct": "A",
     "question": "Where should a fuse or circuit breaker be installed in a 120V AC power circuit?",
@@ -4654,7 +4653,7 @@
     }
   },
   {
-    "num": 382,
+    "num": 383,
     "sample": "T0A09",
     "correct": "C",
     "question": "What should be done to all external ground rods or earth connections?",
@@ -4666,7 +4665,7 @@
     }
   },
   {
-    "num": 383,
+    "num": 384,
     "sample": "T0A10",
     "correct": "A",
     "question": "What hazard is caused by charging or discharging a battery too quickly?",
@@ -4678,7 +4677,7 @@
     }
   },
   {
-    "num": 384,
+    "num": 385,
     "sample": "T0A11",
     "correct": "D",
     "question": "What hazard exists in a power supply immediately after turning it off?",
@@ -4690,7 +4689,7 @@
     }
   },
   {
-    "num": 385,
+    "num": 386,
     "sample": "T0A12",
     "correct": "B",
     "question": "Which of the following precautions should be taken when measuring high voltages with a voltmeter?",
@@ -4702,7 +4701,7 @@
     }
   },
   {
-    "num": 386,
+    "num": 387,
     "sample": "T0B01",
     "correct": "C",
     "question": "Which of the following is good practice when installing ground wires on a tower for lightning protection?",
@@ -4714,7 +4713,7 @@
     }
   },
   {
-    "num": 387,
+    "num": 388,
     "sample": "T0B02",
     "correct": "D",
     "question": "What is required when climbing an antenna tower?",
@@ -4726,7 +4725,7 @@
     }
   },
   {
-    "num": 388,
+    "num": 389,
     "sample": "T0B03",
     "correct": "D",
     "question": "Under what circumstances is it safe to climb a tower without a helper or observer?",
@@ -4738,7 +4737,7 @@
     }
   },
   {
-    "num": 389,
+    "num": 390,
     "sample": "T0B04",
     "correct": "C",
     "question": "Which of the following is an important safety precaution to observe when putting up an antenna tower?",
@@ -4750,7 +4749,7 @@
     }
   },
   {
-    "num": 390,
+    "num": 391,
     "sample": "T0B05",
     "correct": "B",
     "question": "What is the purpose of a safety wire through a turnbuckle used to tension guy lines?",
@@ -4762,7 +4761,7 @@
     }
   },
   {
-    "num": 391,
+    "num": 392,
     "sample": "T0B06",
     "correct": "C",
     "question": "What is the minimum safe distance from a power line to allow when installing an antenna?",
@@ -4774,7 +4773,7 @@
     }
   },
   {
-    "num": 392,
+    "num": 393,
     "sample": "T0B07",
     "correct": "C",
     "question": "Which of the following is an important safety rule to remember when using a crank-up tower?",
@@ -4786,7 +4785,7 @@
     }
   },
   {
-    "num": 393,
+    "num": 394,
     "sample": "T0B08",
     "correct": "D",
     "question": "Which is a proper grounding method for a tower?",
@@ -4798,7 +4797,7 @@
     }
   },
   {
-    "num": 394,
+    "num": 395,
     "sample": "T0B09",
     "correct": "C",
     "question": "Why should you avoid attaching an antenna to a utility pole?",
@@ -4810,7 +4809,7 @@
     }
   },
   {
-    "num": 395,
+    "num": 396,
     "sample": "T0B10",
     "correct": "C",
     "question": "Which of the following is true when installing grounding conductors used for lightning protection?",
@@ -4822,7 +4821,7 @@
     }
   },
   {
-    "num": 396,
+    "num": 397,
     "sample": "T0B11",
     "correct": "B",
     "question": "Which of the following establishes grounding requirements for an amateur radio tower or antenna?",
@@ -4834,7 +4833,7 @@
     }
   },
   {
-    "num": 397,
+    "num": 398,
     "sample": "T0C01",
     "correct": "D",
     "question": "What type of radiation are radio signals?",
@@ -4846,7 +4845,7 @@
     }
   },
   {
-    "num": 398,
+    "num": 399,
     "sample": "T0C02",
     "correct": "B",
     "question": "At which of the following frequencies does maximum permissible exposure have the lowest value?",
@@ -4858,7 +4857,7 @@
     }
   },
   {
-    "num": 399,
+    "num": 400,
     "sample": "T0C03",
     "correct": "C",
     "question": "How does the allowable power density for RF safety change if duty cycle changes from 100 percent to 50 percent?",
@@ -4870,7 +4869,7 @@
     }
   },
   {
-    "num": 400,
+    "num": 401,
     "sample": "T0C04",
     "correct": "D",
     "question": "What factors affect the RF exposure of people near an amateur station antenna?",
@@ -4882,7 +4881,7 @@
     }
   },
   {
-    "num": 401,
+    "num": 402,
     "sample": "T0C05",
     "correct": "C",
     "question": "Why do exposure limits vary with frequency?",
@@ -4894,7 +4893,7 @@
     }
   },
   {
-    "num": 402,
+    "num": 403,
     "sample": "T0C06",
     "correct": "D",
     "question": "Which of the following is an acceptable method to determine whether your station complies with FCC RF exposure regulations?",
@@ -4906,7 +4905,7 @@
     }
   },
   {
-    "num": 403,
+    "num": 404,
     "sample": "T0C07",
     "correct": "B",
     "question": "What hazard is created by touching an antenna during a transmission?",
@@ -4918,7 +4917,7 @@
     }
   },
   {
-    "num": 404,
+    "num": 405,
     "sample": "T0C08",
     "correct": "A",
     "question": "Which of the following actions can reduce exposure to RF radiation?",
@@ -4930,7 +4929,7 @@
     }
   },
   {
-    "num": 405,
+    "num": 406,
     "sample": "T0C09",
     "correct": "B",
     "question": "How can you make sure your station stays in compliance with RF safety regulations?",
@@ -4942,7 +4941,7 @@
     }
   },
   {
-    "num": 405,
+    "num": 407,
     "sample": "T0C10",
     "correct": "A",
     "question": "Why is duty cycle one of the factors used to determine safe RF radiation exposure levels?",
@@ -4954,7 +4953,7 @@
     }
   },
   {
-    "num": 406,
+    "num": 408,
     "sample": "T0C11",
     "correct": "C",
     "question": "What is the definition of duty cycle during the averaging time for RF exposure?",
@@ -4966,7 +4965,7 @@
     }
   },
   {
-    "num": 407,
+    "num": 409,
     "sample": "T0C12",
     "correct": "A",
     "question": "How does RF radiation differ from ionizing radiation (radioactivity)?",
@@ -4978,7 +4977,7 @@
     }
   },
   {
-    "num": 408,
+    "num": 410,
     "sample": "T0C13",
     "correct": "B",
     "question": "Who is responsible for ensuring that no person is exposed to RF energy above the FCC exposure limits?",
